@@ -1,0 +1,25 @@
+<div class="container">
+    <header id="inicio" class="container__header">
+        <div class="container__navbar">
+            <app-menu-bar></app-menu-bar>
+        </div>
+        
+        <div class="container__header_info">
+            <app-header-image></app-header-image>
+            <app-header-info 
+                [titulo]="'Conheça o TutorSports, o seu guia de voleibol'"
+                [subtitulo]="'Encontre tudo sobre voleibol aqui.'"
+                [descricao]="'O TutorSports é um site que tem como objetivo trazer informações sobre o voleibol, seja ele de praia ou de quadra. Aqui você encontra notícias, dicas, curiosidades e muito mais sobre o esporte.'"
+            ></app-header-info>
+        </div>
+    </header>
+
+    <div id="modalidades" class="container__categories">
+        <app-modalidade [modalidade]="'Vôlei de Praia'" [imagem]="'https://public-rf-upload.minhawebradio.net/2158/news/cc4cc9a7db2bb72313355b13833e3fdd.jpg'"></app-modalidade>
+        <app-modalidade [modalidade]="'Vôlei de Quadra'" [imagem]="'https://opopular.com.br/image/policy:1.2297058:1676277115/image.jpg'"></app-modalidade>
+    </div>
+
+    <footer id="contatos">
+        <app-contatos></app-contatos>
+    </footer>
+</div>

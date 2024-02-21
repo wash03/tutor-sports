@@ -1,0 +1,46 @@
+.container__footer {
+    margin: 5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__menu_footer {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+
+.container__contatos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: transparent;
+}
+
+.container__contatos li {
+    list-style: none;
+    background: transparent;
+    margin-right: 2rem;
+}
+
+.container__contatos a {
+    color: #9eecff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: transparent;
+    font-size: 0.8rem;
+}
+
+.container__contatos a img {
+    margin-right: 0.5rem;
+    background: transparent;
+}
+
+.copy {
+    font-size: 0.7rem;
+    margin: 1rem auto;
+    text-align: center;
+    color: #9eecff;
+}
